@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactme</title>
+</head>
+<body>
+    <h1>
+        Contact Info
+    </h1>
+    <table>
+        <tbody>
+            <tr>
+                <td>Name:</td>
+                <td>Ngozi Ihejiahi</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>alice@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Tel:</td>
+                <td> 905 222 5555</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>3 Hansen Road Brampton</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <form action="mailto:ngdiva@gmail.com" enctype="text/plain" method="POST"> 
+    <p>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required placeholder="First lastname">
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="email">
+    </p>
+    <p>
+        <textarea name="text" id="msg" cols="30" rows="10"></textarea>
+    </p>
+    <button type="submit">send</button>
+    </form>
+    
+</body>
+</html>
